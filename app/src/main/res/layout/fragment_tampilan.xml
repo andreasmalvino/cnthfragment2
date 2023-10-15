@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myapplication.TampilanFragment"
+    android:orientation="vertical">
+
+
+<TextView
+    android:text="Halo, ini fragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:paddingBottom="10dp"
+    android:id="@+id/textView" />
+
+<Button
+android:text="Show Me"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/btn_show" />
+</LinearLayout>
